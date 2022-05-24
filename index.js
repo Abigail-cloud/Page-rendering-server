@@ -8,6 +8,7 @@ app.get('/', function(req, res) {
     //__dirname : Will resolve to your project folder.
 });
 
+
 // <a href="about.html"></a>
 
 app.get('/about.html', function(req, res) {
@@ -19,6 +20,6 @@ app.get('/contact.html', function(req, res) {
 });
 
 //add the router
-app.listen(process.env.port || 8080);
+app.listen(process.env.PORT || 8080);
 
 console.log('Running at Port 8080');
