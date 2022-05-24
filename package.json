@@ -1,23 +1,25 @@
 {
-  "name": "page-rendering-server",
-  "version": "1.0.0",
-  "description": "Hint",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Abigail-cloud/Page-rendering-server.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Abigail-cloud/Page-rendering-server/issues"
-  },
-  "homepage": "https://github.com/Abigail-cloud/Page-rendering-server#readme",
-  "dependencies": {
-    "express": "^4.18.1"
-  }
+    "name": "page-rendering-server",
+    "version": "1.0.0",
+    "description": "Hint",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Abigail-cloud/Page-rendering-server.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Abigail-cloud/Page-rendering-server/issues"
+    },
+    "homepage": "https://github.com/Abigail-cloud/Page-rendering-server#readme",
+    "dependencies": {
+        "express": "^4.18.1",
+        "nodemon": "^2.0.16"
+    }
 }
