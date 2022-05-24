@@ -6,7 +6,7 @@ const router = express.Router();
 
 //The main Page
 router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/pages/index.html'));
+    res.sendFile(path.join(__dirname + '/index.html'));
     //__dirname : Will resolve to your project folder.
 });
 
