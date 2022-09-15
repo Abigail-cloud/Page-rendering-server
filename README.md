@@ -9,3 +9,15 @@ Create a basic information site that contains 4 pages: index, about, contact-me,
 • <a href="http://localhost:8080/contact-me">http://localhost:8080/contact-me</a> should take users to contact-me.html
 • 404.html should display any time the user tries to go to a page not listed above.
 Note: Deploy your project to heroku.
+
+
+
+ <li>
+                <a href="about.html">http://localhost:8080/about</a>
+            </li>
+            <li>
+                <a href="contact.html">http://localhost:8080/contact-me</a>
+            </li>
+            <li>
+                <a href="404.html">My Links</a>
+            </li>
